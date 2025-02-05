@@ -1,7 +1,7 @@
 ![Image](https://github.com/user-attachments/assets/cd78bde6-e3ea-462d-9402-f1c6dc9ef408)
 
 ## Description
-This simple Python script uses a CVS from [LOLBAS Project](https://lolbas-project.github.io/) to get information about LOLBins & LOLScripts conveniently in the terminal and offline, for Red Team purposes
+This simple Python script uses a CSV from [LOLBAS Project](https://lolbas-project.github.io/) to get information about LOLBins & LOLScripts conveniently in the terminal and offline, for Red Team purposes
 
 ## What is LOLBAS
 As they themselves identify their project:
