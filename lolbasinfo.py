@@ -63,6 +63,7 @@ def printLolbas(feature):
   print(f"\t{Fore.CYAN + Style.DIM}*_{Style.RESET_ALL} URL: {feature['URL']}")
   print(f"\t{Fore.CYAN + Style.DIM}*_{Style.RESET_ALL} Tags: [{feature['Tags']}]")
   print("=================================================================================================")
+  
 def banner():
   print(f"""      __        __        __             ___  __  
 {Fore.RED}|    /  \ |    |__)  /\  /__`    | |\ | |__  /  \ 
@@ -71,6 +72,7 @@ def banner():
                  
                  """)
   time.sleep(1)
+  
 def main():
   banner()
   parser = argparse.ArgumentParser(description="Search for information about LOLBAS more easy!")
