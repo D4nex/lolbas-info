@@ -1,7 +1,21 @@
-<h3 align="center">LOLBAS-INFO</h3>
-<p align="center">
-   A simple python script to get information about <b><i>LOLBins/LOLScripts</i></b> quickly.
-</p>
+![Image](https://github.com/user-attachments/assets/cd78bde6-e3ea-462d-9402-f1c6dc9ef408)
+
+## Description
+This simple Python script uses a CVS from [LOLBAS Project](https://lolbas-project.github.io/) to get information about LOLBins & LOLScripts conveniently in the terminal and offline, for Red Team purposes
+
+## What is LOLBAS
+As they themselves identify their project:
+
+The goal of the LOLBAS project is to document all binaries, scripts and libraries that can be used for Living Off The Land techniques.
+
+A LOLBin/Lib/Script must:
+
+- Be a Microsoft-signed file, either native to the OS or downloaded from Microsoft.
+- Have extra "unexpected" functionality. It is not interesting to document intended use cases.
+    - Exceptions are application whitelisting bypasses.
+- Have functionality that would be useful to an APT or red team.
+
+Summary: These are "native" binaries of MS(Windows) based systems that allow from their functionalities to be exploited for cybersecurity purposes.
 
 ## Install
 ```
@@ -49,6 +63,7 @@ d4nex@pwn:~$ python3 lolbasinfo.py -lol Certutil.exe
 ```
 
 ## Issues
+- Please note that this script was developed for personal use (automation and convenience) so it may contain errors.
 - 错误和异常处理
 - 面向对象编程，优化结构
 - 对代码的评论
