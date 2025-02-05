@@ -33,7 +33,7 @@ python3 lolbasinfo.py -h
 ```
 python3 lolbasinfo.py -l
 ```
-List all available LOLBAS included in the cvs to get your information.
+List all available LOLBAS included in the csv to get your information.
 
 ```
 python3 lolbasinfo.py -lol <lolbin/lolscript>
